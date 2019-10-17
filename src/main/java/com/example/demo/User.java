@@ -44,7 +44,7 @@ public class User {
     public User(String email, String password, String firstName, String lastName,
                 boolean enabled, String username){
         this.email = email;
-        this.password = password;
+         setPassword(password);
         this.firstName = firstName;
         this.lastName = lastName;
         this.enabled = enabled;
